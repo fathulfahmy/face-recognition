@@ -60,6 +60,8 @@
   </ol>
 </details>
 
+![Face recognition using DeepFace and OpenCV][product-screenshot]
+
 ### Built With
 
 - [DeepFace](https://github.com/serengil/deepface)
@@ -196,4 +198,4 @@ Project Link: [https://github.com/fathulfahmy/face-recognition](https://github.c
 [license-url]: https://github.com/fathulfahmy/face-recognition/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/fathulfahmy
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: docs/screenshot.png
