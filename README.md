@@ -82,7 +82,11 @@
    ```sh
    git clone https://github.com/fathulfahmy/face-recognition.git
    ```
-2. Install dependencies
+2. Navigate to project directory
+   ```sh
+   cd face-recognition
+   ```
+3. Install dependencies
    ```sh
    pip install .
    ```
@@ -92,6 +96,21 @@
 <!-- USAGE EXAMPLES -->
 
 ## Usage
+
+1. Insert faces in the `~/database/faces`
+
+```
+database
+ ┗ faces
+  ┣ Sebastian
+  ┃ ┣ image1.jpg
+  ┃ ┗ image2.jpg
+  ┗ Mia
+   ┣ image1.jpg
+   ┗ image2.jpg
+```
+
+2. Run script
 
 ```sh
 uv run main.py
