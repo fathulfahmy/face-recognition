@@ -116,6 +116,8 @@ database
 uv run main.py
 ```
 
+3. Press `q` on GUI or `ctrl+c` on terminal to quit
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
