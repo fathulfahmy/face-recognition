@@ -77,6 +77,10 @@
 ### Prerequisites
 
 - Python >= 3.13
+- UV
+```sh
+pip install uv
+```
 
 ### Installation
 
@@ -90,7 +94,8 @@
    ```
 3. Install dependencies
    ```sh
-   pip install .
+   uv sync
+   pre-commit install
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -108,8 +113,8 @@ database
   ┃ ┣ image1.jpg
   ┃ ┗ image2.jpg
   ┗ Mia
-   ┣ image1.jpg
-   ┗ image2.jpg
+    ┣ image1.jpg
+    ┗ image2.jpg
 ```
 
 2. Run script
