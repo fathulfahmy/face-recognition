@@ -28,7 +28,7 @@
 <h3 align="center">Face Recognition</h3>
 
   <p align="center">
-    Face recognition using DeepFace and OpenCV
+    Face recognition using YOLO and face_recognition or DeepFace
     <br />
     <a href="https://github.com/fathulfahmy/face-recognition"><strong>Explore the docs »</strong></a>
     <br />
@@ -60,10 +60,12 @@
   </ol>
 </details>
 
-![Face recognition using DeepFace and OpenCV][product-screenshot]
+![Product screenshot][product-screenshot]
 
 ### Built With
 
+- [YOLO](https://docs.ultralytics.com/models/yolo11/)
+- [face_recognition](https://github.com/ageitgey/face_recognition)
 - [DeepFace](https://github.com/serengil/deepface)
 - [OpenCV](https://pypi.org/project/opencv-python/)
 - [UV](https://docs.astral.sh/uv/)
@@ -76,7 +78,7 @@
 
 ### Prerequisites
 
-- Python >= 3.13
+- Python >= 3.11
 - UV
 ```sh
 pip install uv
@@ -120,7 +122,7 @@ database
 2. Run script
 
 ```sh
-uv run main.py
+uv run app/main.py
 ```
 
 3. Press `q` on GUI or `ctrl+c` on terminal to quit
@@ -181,6 +183,7 @@ Project Link: [https://github.com/fathulfahmy/face-recognition](https://github.c
 
 ## Acknowledgments
 
+- [face_recognition](https://github.com/ageitgey/face_recognition/blob/master/examples/facerec_from_webcam.py)
 - [DeepFace](https://github.com/serengil/deepface)
 - [OpenCV](https://pypi.org/project/opencv-python/)
 - [RasulAlakbarli/Face_Recognition_w_DeepFace](https://github.com/RasulAlakbarli/Face_Recognition_w_DeepFace/blob/master/main.py)

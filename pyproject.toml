@@ -1,14 +1,20 @@
 [project]
-name = "face-recognition"
+name = "app"
 version = "0.1.0"
-description = "Face recognition using DeepFace and OpenCV"
+description = ""
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.11"
 dependencies = [
     "deepface>=0.0.95",
+    "face-recognition>=1.3.0",
+    "fastapi[standard]>=0.121.1",
+    "opencv-python>=4.12.0.88",
+    "pydantic-settings>=2.12.0",
     "tf-keras>=2.20.1",
-    "torch>=2.8.0",
-    "tensorflow[and-cuda]>=2.20.0",
-    "ruff>=0.14.0",
-    "pre-commit>=4.3.0",
+    "ultralytics>=8.3.228",
+]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.4.0",
 ]
